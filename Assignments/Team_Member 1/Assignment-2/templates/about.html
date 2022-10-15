@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>About us</title>
+        <link rel="stylesheet" href="static/normalize.css">
+        <link rel="stylesheet" href="static/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/bootstrap.css">
+        <link rel="stylesheet" href="static/style-portfolio.css">
+        <link rel="stylesheet" href="static/picto-foundry-food.css" />
+        <link rel="stylesheet" href="static/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Restaurant</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="{{url_for('home')}}">WELCOME</a></li>
+                            <li><a class="color_animation" href="{{url_for('about')}}">ABOUT</a></li>
+
+
+
+                            <li><a class="color_animation" href="{{url_for('signup')}}">SIGN UP</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <p class="desc-text">Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="static/kabob.jpg" width="250" height="220">
+                       <img src="static/limes.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="static/radish.jpg"  width="250" height="220">
+                       <img src="static/corn.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script type="text/javascript" src="static/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="static/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="static/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="static/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="static/main.js" ></script>
+
+    </body>
+</html>

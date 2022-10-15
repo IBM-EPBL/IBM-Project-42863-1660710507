@@ -1,0 +1,28 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>     
+</head>    
+<body>    
+    <h2>signin Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php"> 
+        <label><b>Email     
+        </b>    
+        </label>    
+        <input type="text" name="email"  placeholder="Email">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="pword" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="signin">       
+        <br><br>    
+        <a href="{{ url_for('signup') }}"> signup</a>
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
+</body>    
+</html>     
