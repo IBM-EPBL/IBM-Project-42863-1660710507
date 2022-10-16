@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Bucket Data</title>
+        <body>
+            <h1 style="text-align: center;"><b>Assignment 3 - Creation of bucket data in cloud and Watson Assistant</b></h1>
+            <h2 style="text-align: center;">Team Leader : Akash Vela</h2>
+            <img style="width: 640px;height: 480px;" src="https://akashvela.s3.jp-tok.cloud-object-storage.appdomain.cloud/a.jpeg">
+            <img style="width: 640px;height: 480px;" src="https://akashvela.s3.jp-tok.cloud-object-storage.appdomain.cloud/b.jpeg">
+            <img style="width: 640px;height: 480px;" src="https://akashvela.s3.jp-tok.cloud-object-storage.appdomain.cloud/c.jpeg">
+            <img style="width: 640px;height: 480px;" src="https://akashvela.s3.jp-tok.cloud-object-storage.appdomain.cloud/d.jpeg">
+            <img style="width: 640px;height: 480px;text-align: center;" src="https://akashvela.s3.jp-tok.cloud-object-storage.appdomain.cloud/e.jpeg">
+        </body>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "c1cc1505-f578-422e-ae68-2255ab2ef0e0", // The ID of this integration.
+              region: "au-syd", // The region your integration is hosted in.
+              serviceInstanceID: "b3e1020c-148a-4faf-869b-56af292e16ba", // The ID of your service instance.
+              onLoad: function(instance) { instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </head>
+</html>
