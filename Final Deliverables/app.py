@@ -43,8 +43,7 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'jfif'}
 
 KEY = "24803877913464067088963527689231"
 
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=19af6446-6171-4641-8aba-9dcff8e1b6ff.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=30699;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=yyx69722;PWD=2YqarEmzriL08SP7",'','')
-
+conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=vpl82476;PWD=k8i1UBTUAkS3ZV2k;",'','')
 print(conn)
 
 app = Flask(__name__)
