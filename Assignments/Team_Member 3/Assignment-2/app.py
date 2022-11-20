@@ -7,7 +7,9 @@ import ibm_db
 from prettytable import from_db_cursor
 import ibm_db_dbi as db2
 conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=vpl82476;PWD=k8i1UBTUAkS3ZV2k;",'','')
-# print(conn1)
+                
+
+
 # conn = db2.connect("DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=vpl82476;PWD=k8i1UBTUAkS3ZV2k;",'','')
 # Flask constructor takes the name of
 # current module (__name__) as argument.
