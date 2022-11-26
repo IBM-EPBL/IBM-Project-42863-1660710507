@@ -1,5 +1,20 @@
 "IBM-Project-42863-1660710507" 
 
+TEAM ID       :  PNT2022TMID47773
+BATCH NO      :  B2- 2M4E 
+
+TEAM LEADER   :   V.AKASH (911719104005) 
+
+TEAM MEMBERS  :
+   AM.ARIHARAN (911719104007) 
+   V.JAYA SUNDAR (911719104016) 
+   A.KARUPPAIAH (911719104022) 
+
+
+
+
+
+
 
 watson chat assistant link:
 Team_Leader Assignment-3
